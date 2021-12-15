@@ -7,7 +7,7 @@ body{
  width: 100;
  height: 100vh;
  background-image: linear-gradient(rgba(4,9,30,0.7),
- rgba(4,9,30,0.7)),url(images/bg.jpg);
+ rgba(4,9,30,0.7)),url(bg.jpg);
  background-size: cover;
  background-position: center;
 }

@@ -8,7 +8,7 @@
 <body>
         <table cellspacing="20">
       <tr>
-        <td><img src="images/pic.png" alt="My test image"width="250" height="250"></td>
+        <td><img src="pic.png" alt="My test image"width="250" height="250"></td>
         <td>
         <h1>Darren Portodo</h1>
         <h3><em>CEO of <strong><a href="https://www.techradar.com/">Saganzone</a></strong></em></h3>
@@ -94,11 +94,11 @@
         
         <div class="right-col">
             <p>Click Here To Play Music</p>
-            <img src="images/play.png" id="icon">
+            <img src="play.png" id="icon">
         </div>
         
         <audio id="mySong">
-            <source src="images/lofi.mp3" type="audio/mp3">
+            <source src="lofi.mp3" type="audio/mp3">
         </audio>
 
         <script type="text/javascript">
@@ -108,10 +108,10 @@
             icon.onclick = function(){
                 if(mySong.paused){
                     mySong.play();
-                    icon.src = "images/pauseicon.png";
+                    icon.src = "pauseicon.png";
                 }else{
                     mySong.pause();
-                    icon.src = "images/play.png";
+                    icon.src = "play.png";
                 }
             }
         </script>
